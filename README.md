@@ -53,8 +53,7 @@ This application uses the VIPER UI architecture,
 ## Structure
 
 ### Modules
-- Include Common, DetailModule, ListModule 
-	*ArticalDetail.
+- Include Common, DetailModule, ListModule.
 
 ### Domain
 - Include Entities, Protocols
