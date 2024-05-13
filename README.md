@@ -51,7 +51,7 @@ This application uses the VIPER UI architecture with modular approach using DI C
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*saKX3Dssawi-Z4zT0mNRmQ.png" width="600" height="300">
 
-<img src="https://miro.medium.com/v2/resize:fit:1400/1*lR0AqgxKy5H7bFFQbYQeeA.png" width="150" height="300">
+<img src="https://miro.medium.com/v2/resize:fit:1400/1*lR0AqgxKy5H7bFFQbYQeeA.png" width="600" height="300">
 
 
 ## Structure
@@ -67,7 +67,7 @@ This application uses the VIPER UI architecture with modular approach using DI C
 
 <img src="https://d33wubrfki0l68.cloudfront.net/59d7c1b1e215f50cd6d95a02f7d7ca4990bb6ee5/a1aac/public/images/posts/modern-approach-modularize-ios-swiftui-spm/clean-architecture-modules-relationships.png" width="900" height="450">
 
-<img src="https://github.com/SyedAsad-dev/UniversitiesTest/assets/58474263/c16012e2-4864-4b3d-b28f-3f200907b3c4" width="900" height="450">
+<img src="https://github.com/SyedAsad-dev/UniversitiesTest/assets/58474263/c16012e2-4864-4b3d-b28f-3f200907b3c4" width="200" height="450">
 
 
 ## Screen shots:
