@@ -47,11 +47,13 @@ PRODUCT_BUNDLE_IDENTIFIER = asd.asd.Universities
 Without any implementation of third party libraries.
 
 ## Architecture
-This application uses the VIPER UI architecture.
-
-<img src="https://miro.medium.com/v2/resize:fit:1400/1*lR0AqgxKy5H7bFFQbYQeeA.png" width="400" height="200">
+This application uses the VIPER UI architecture with modular approach using DI Container.
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*RsXR2p2pYFMsw9HbD-cm1Q.png" width="400" height="200">
+
+<img src="https://miro.medium.com/v2/resize:fit:1400/1*saKX3Dssawi-Z4zT0mNRmQ.png" width="400" height="200">
+
+<img src="https://miro.medium.com/v2/resize:fit:1400/1*lR0AqgxKy5H7bFFQbYQeeA.png" width="400" height="200">
 
 
 ## Structure
@@ -65,7 +67,8 @@ This application uses the VIPER UI architecture.
 ### Data
 - Include CoreDataRepository, ListServiceRepository, DataSource, Networking etc.
 
-<img src="https://miro.medium.com/v2/resize:fit:1400/1*saKX3Dssawi-Z4zT0mNRmQ.png" width="400" height="200">
+  
+<img src="https://d33wubrfki0l68.cloudfront.net/59d7c1b1e215f50cd6d95a02f7d7ca4990bb6ee5/a1aac/public/images/posts/modern-approach-modularize-ios-swiftui-spm/clean-architecture-modules-relationships.png" width="400" height="200">
 
 
 ## Screen shots:
