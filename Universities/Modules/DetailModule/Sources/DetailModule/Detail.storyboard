@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vVW-O2-lcM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--University Detail View Controller-->
+        <scene sceneID="FDI-HT-odB">
+            <objects>
+                <viewController storyboardIdentifier="UniversityDetailViewController" id="vVW-O2-lcM" customClass="UniversityDetailViewController" customModule="DetailModule" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ck6-W2-pL1">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="40" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="OEY-cT-uYF">
+                                <rect key="frame" x="0.0" y="59" width="393" height="793"/>
+                                <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="UniversityDetailTableViewCell" rowHeight="40" id="FF1-Jo-pm7" customClass="UniversityDetailTableViewCell" customModule="DetailModule">
+                                        <rect key="frame" x="0.0" y="55.333332061767578" width="393" height="40"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="FF1-Jo-pm7" id="F3q-Vj-hYo">
+                                            <rect key="frame" x="0.0" y="0.0" width="362.66666666666669" height="40"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="JXX-br-xCl">
+                                                    <rect key="frame" x="20" y="0.0" width="342.66666666666669" height="40"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YV9-GU-PKv">
+                                                            <rect key="frame" x="0.0" y="0.0" width="171.33333333333334" height="40"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OkY-8g-IJG">
+                                                            <rect key="frame" x="171.33333333333331" y="0.0" width="171.33333333333331" height="40"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="JXX-br-xCl" secondAttribute="bottom" id="BHi-Rf-XKn"/>
+                                                <constraint firstItem="JXX-br-xCl" firstAttribute="top" secondItem="F3q-Vj-hYo" secondAttribute="top" id="EPI-M2-zAA"/>
+                                                <constraint firstAttribute="trailing" secondItem="JXX-br-xCl" secondAttribute="trailing" id="Srw-ZD-hiB"/>
+                                                <constraint firstItem="JXX-br-xCl" firstAttribute="leading" secondItem="F3q-Vj-hYo" secondAttribute="leading" constant="20" id="bLi-KX-9S3"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="leftLabel" destination="YV9-GU-PKv" id="lta-Ge-vNu"/>
+                                            <outlet property="rightLabel" destination="OkY-8g-IJG" id="uiS-DS-Jwg"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="vVW-O2-lcM" id="iQC-nt-cBN"/>
+                                    <outlet property="delegate" destination="vVW-O2-lcM" id="j3b-IX-JVN"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="0ZF-MH-hDi"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="OEY-cT-uYF" secondAttribute="bottom" id="25d-y0-omx"/>
+                            <constraint firstItem="OEY-cT-uYF" firstAttribute="top" secondItem="0ZF-MH-hDi" secondAttribute="top" id="5Qr-Fu-pr7"/>
+                            <constraint firstItem="OEY-cT-uYF" firstAttribute="leading" secondItem="0ZF-MH-hDi" secondAttribute="leading" id="91j-wM-Ckj"/>
+                            <constraint firstItem="OEY-cT-uYF" firstAttribute="trailing" secondItem="0ZF-MH-hDi" secondAttribute="trailing" id="Lm3-sQ-mHW"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="universityDetailTableView" destination="OEY-cT-uYF" id="XsY-l0-tSL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="34X-vq-dcq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2063" y="115"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="groupTableViewBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

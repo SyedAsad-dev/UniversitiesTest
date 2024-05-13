@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22757" systemVersion="23E224" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="UniversityEntity" representedClassName="UniversityEntity" syncable="YES">
+        <attribute name="uni_code" optional="YES" attributeType="String"/>
+        <attribute name="uni_country" optional="YES" attributeType="String"/>
+        <attribute name="uni_id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="uni_name" optional="YES" attributeType="String"/>
+        <attribute name="uni_state" optional="YES" attributeType="String"/>
+    </entity>
+</model>
