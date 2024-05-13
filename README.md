@@ -4,7 +4,7 @@ Swift Assessment Test
 ## Building And Running The Project (Requirements)
 * Swift 5.0+
 * UIKit
-* Xcode 14.2+
+* Xcode 15.3+
 * iOS 17+
 * MacOS Sonoma 14.4.1
 
