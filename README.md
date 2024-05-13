@@ -47,7 +47,11 @@ PRODUCT_BUNDLE_IDENTIFIER = asd.asd.Universities
 Without any implementation of third party libraries.
 
 ## Architecture
-This application uses the VIPER UI architecture,
+This application uses the VIPER UI architecture.
+
+<img src="https://miro.medium.com/v2/resize:fit:1400/1*lR0AqgxKy5H7bFFQbYQeeA.png" width="400" height="200">
+
+<img src="https://miro.medium.com/v2/resize:fit:1400/1*RsXR2p2pYFMsw9HbD-cm1Q.png" width="400" height="200">
 
 
 ## Structure
