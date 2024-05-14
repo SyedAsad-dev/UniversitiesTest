@@ -25,7 +25,6 @@ let package = Package(
                 .product(name: "Entities", package: "Domain"),
                 .product(name: "Utils", package: "Utils"),
                 "Common",
-//                .product(name: "ListServiceRepository", package: "Domain"),
             ],
             resources: [.process("List.storyboard")]
         ),

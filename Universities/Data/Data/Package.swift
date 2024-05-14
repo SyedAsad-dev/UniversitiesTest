@@ -25,8 +25,6 @@ let package = Package(
                 .product(name: "Protocols", package: "Domain"),
                 .product(name: "Utils", package: "Utils"),
             ]
-//            resources: [.process("Resources/UniversitiesList.xcdatamodeld")]
-//            resources: [.process("Resources/Universities.xcdatamodeld")]
         ),
         .testTarget(
             name: "DataTests",

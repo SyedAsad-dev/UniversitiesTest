@@ -33,16 +33,13 @@ public final class UniversityDetailPresenter: UniversityDetailPresentable {
     public func makeSections() -> [UniversityDetailSection] {
         [
             UniversityDetailSection(
-                title: "Details",
+                title: interactor.university?.name ?? "",
                 rows: [
-                    UniversityDetailRow(title: "",
-                                        value: interactor.university?.name ?? "",
-                                    editableField: .name),
                     UniversityDetailRow(title: "Country",
-                                        value: interactor.university?.stateProvince != nil ? "\(interactor.university!.stateProvince)" : "",
+                                        value: interactor.university?.country != nil ? "\(interactor.university!.country)" : "",
                                     editableField: .name),
                     UniversityDetailRow(title: "State",
-                                    value: interactor.university?.country != nil ? "\(interactor.university!.country)" : "",
+                                        value: interactor.university?.stateProvince != nil ? "\(interactor.university!.stateProvince!)" : "",
                                     editableField: .name),
                     UniversityDetailRow(title: "Code",
                                     value: interactor.university?.alphaTwoCode != nil ? "\(interactor.university!.alphaTwoCode)" : "",
@@ -57,7 +54,7 @@ public final class UniversityDetailPresenter: UniversityDetailPresentable {
 // MARK: - View Configuration
 extension UniversityDetailPresenter: UniversityDetailPresenterViewConfiguration {
     public func viewDidLoad() {
-        let title = interactor.university?.name ?? ""
+        let title = "Details"
         view?.configureTitle(title)
         view?.setupBarButtonItem(title: "Reload")
         view?.setBarButtonState(isEnabled: true)

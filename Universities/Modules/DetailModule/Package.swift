@@ -24,9 +24,7 @@ let package = Package(
             dependencies: [
                 .product(name: "Entities", package: "Domain"),
                 .product(name: "Utils", package: "Utils"),
-                .product(name: "DetailsViewDelegate", package: "Domain"),
                 "Common",
-//                .product(name: "ListServiceRepository", package: "Domain"),
             ],
             resources: [.process("Detail.storyboard")]
         ),

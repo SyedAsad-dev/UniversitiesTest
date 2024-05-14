@@ -28,15 +28,6 @@ public final class UniversityListViewController: UIViewController, UniversityLis
         return emptyView
     }()
     
-//    public init() {
-//        super.init(nibName: String(describing: Self.self), bundle: Bundle(for: Self.self))
-//    }
-//    
-//    required init?(coder: NSCoder) {
-//        fatalError("init(coder:) has not been implemented")
-//    }
-
-    
     // MARK: - View life cycle
     public override func viewDidLoad() {
         super.viewDidLoad()

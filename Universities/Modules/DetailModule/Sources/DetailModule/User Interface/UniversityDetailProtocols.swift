@@ -7,7 +7,6 @@
 
 import Foundation
 import Entities
-import DetailsViewDelegate
 import Common
 
 

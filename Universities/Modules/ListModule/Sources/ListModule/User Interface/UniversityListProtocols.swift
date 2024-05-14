@@ -8,7 +8,6 @@
 import Foundation
 import Entities
 import Utils
-import DetailsViewDelegate
 
 
 

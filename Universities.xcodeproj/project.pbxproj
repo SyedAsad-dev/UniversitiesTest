@@ -10,7 +10,6 @@
 		F04603892BF1C0E500F4AFE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D5903D2BEA3FD100EB8133 /* AppDelegate.swift */; };
 		F04603922BF1CD2700F4AFE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F04603912BF1CD2700F4AFE3 /* Main.storyboard */; };
 		F04603942BF1D47200F4AFE3 /* ListModule in Resources */ = {isa = PBXBuildFile; fileRef = F04603932BF1D47200F4AFE3 /* ListModule */; };
-		F054B0302BEBDA5700912D1B /* DetailsViewDelegate in Frameworks */ = {isa = PBXBuildFile; productRef = F054B02F2BEBDA5700912D1B /* DetailsViewDelegate */; };
 		F054B0342BECD7BB00912D1B /* Common in Frameworks */ = {isa = PBXBuildFile; productRef = F054B0332BECD7BB00912D1B /* Common */; };
 		F054B0362BECF70B00912D1B /* ListModule in Frameworks */ = {isa = PBXBuildFile; productRef = F054B0352BECF70B00912D1B /* ListModule */; };
 		F054B0382BED25A100912D1B /* AppNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F054B0372BED25A100912D1B /* AppNavigation.swift */; };
@@ -46,7 +45,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0D590F42BEB864400EB8133 /* Utils in Frameworks */,
-				F054B0302BEBDA5700912D1B /* DetailsViewDelegate in Frameworks */,
 				F0769E602BEB9138003DA2A0 /* DetailModule in Frameworks */,
 				F054B0362BECF70B00912D1B /* ListModule in Frameworks */,
 				F0769E642BEB9138003DA2A0 /* Entities in Frameworks */,
@@ -171,7 +169,6 @@
 				F0769E5F2BEB9138003DA2A0 /* DetailModule */,
 				F0769E632BEB9138003DA2A0 /* Entities */,
 				F0769E732BEBAB04003DA2A0 /* Data */,
-				F054B02F2BEBDA5700912D1B /* DetailsViewDelegate */,
 				F054B0332BECD7BB00912D1B /* Common */,
 				F054B0352BECF70B00912D1B /* ListModule */,
 			);
@@ -450,10 +447,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		F054B02F2BEBDA5700912D1B /* DetailsViewDelegate */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = DetailsViewDelegate;
-		};
 		F054B0332BECD7BB00912D1B /* Common */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Common;

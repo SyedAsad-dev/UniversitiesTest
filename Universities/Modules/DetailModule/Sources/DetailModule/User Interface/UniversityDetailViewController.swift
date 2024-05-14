@@ -92,7 +92,4 @@ extension UniversityDetailViewController: UITableViewDataSource, UITableViewDele
         presenter.titleForHeaderInSection(section)
     }
 
-//    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        presenter.selectRow(at: indexPath)
-//    }
 }
