@@ -82,7 +82,7 @@ This application uses the VIPER UI architecture with modular approach using DI C
 <p align="center"> 
 <img src="https://github.com/SyedAsad-dev/UniversitiesTest/assets/58474263/d91896b2-f583-4640-9c67-ae9ed1085ac7" width="250" height="500">
 
-<img src="https://github.com/SyedAsad-dev/UniversitiesTest/assets/58474263/7198dbb7-de77-454f-857f-095ce0fd1851" width="250" height="500">
+<img src="https://github.com/SyedAsad-dev/UniversitiesTest/assets/58474263/89589505-77fc-488f-940b-e6555fe31ad6" width="250" height="500">
 </p>
 
 ### Light mode
@@ -90,7 +90,7 @@ This application uses the VIPER UI architecture with modular approach using DI C
 <p align="center"> 
 <img src="https://github.com/SyedAsad-dev/UniversitiesTest/assets/58474263/79f35320-a7fa-4188-a09b-edb13ca1ce0f" width="250" height="500">
 
-<img src="https://github.com/SyedAsad-dev/UniversitiesTest/assets/58474263/3b4f9029-b42f-4eaf-a76f-c11b1423c264" width="250" height="500">
+<img src="https://github.com/SyedAsad-dev/UniversitiesTest/assets/58474263/34043941-3a3a-494f-9698-b44213055a16" width="250" height="500">
 
 <img src="https://github.com/SyedAsad-dev/UniversitiesTest/assets/58474263/8e1c30c0-e10b-4563-b695-f613f93383e4" width="250" height="500">
 </p>
