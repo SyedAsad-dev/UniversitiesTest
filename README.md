@@ -24,8 +24,9 @@ PRODUCT_BUNDLE_IDENTIFIER = asd.asd.Universities
 
 #targets:
 * Universities
-
+ * ListModuleTest
 ```
+
 
 # Build and or run application by doing:
 * Select the build scheme which can be found right after the stop button on the top left of the IDE
@@ -43,6 +44,7 @@ PRODUCT_BUNDLE_IDENTIFIER = asd.asd.Universities
 - Offline Support.
 - No Reactive Programming.
 - No Async/Await.
+- Unit Tests.
 
 Without any implementation of third party libraries.
 

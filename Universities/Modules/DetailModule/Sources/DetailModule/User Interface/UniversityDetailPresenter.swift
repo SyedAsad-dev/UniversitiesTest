@@ -82,32 +82,6 @@ extension UniversityDetailPresenter: UniversityDetailDataSource {
     public func titleForHeaderInSection(_ section: Int) -> String? {
         sections[section].title.uppercased()
     }
-    
-//    func selectRow(at indexPath: IndexPath) {
-//        let university = interactor.university
-//        let rowDetails = sections[indexPath.section].rows[indexPath.row]
-//        let items = self.items(for: rowDetails.editableField)
-//        let selectedItemIndex = items.firstIndex(of: rowDetails.value.lowercased())
-//        let editableUniversityDetails = PlayerEditable(player: university,
-//                                                   items: items,
-//                                                   selectedItemIndex: selectedItemIndex,
-//                                                   rowDetails: rowDetails)
-//
-////        router.showEditView(with: editablePlayerDetails, delegate: self)
-//    }
-    
-//    private func items(for editableField: PlayerEditableFieldOption) -> [String] {
-//        switch editableField {
-//        case .position:
-//            return PlayerPosition.allCases.map { $0.rawValue }
-//
-//        case .skill:
-//            return PlayerSkill.allCases.map { $0.rawValue }
-//
-//        default:
-//            return []
-//        }
-//    }
 }
 
 // MARK: - Service Handler
